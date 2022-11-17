@@ -1,0 +1,31 @@
+{
+  "SlashCommandStructure": {
+    "prefix": "SlashCommand",
+    "body": [
+      "const { SlashCommandBuilder } = require('discord.js');",
+      "module.exports = {",
+      "  data: new SlashCommandBuilder()",
+      "    .setName('${1:${TM_FILENAME_BASE:filename}}')",
+      "    .setDescription('${2:description for command}')${3},",
+      "  async execute(interaction) {",
+      "    ${0:// code...}",
+      "  },",
+      "};"
+    ],
+    "description": "Standard Slash Command setup"
+  },
+  "eventStructure": {
+    "prefix": "BotEvent",
+    "body": [
+      "// const {  } = require('../functions.js');\n",
+      "module.exports = {",
+      "  name: '${1:${TM_FILENAME_BASE:filename}}',",
+      "  async execute(${2:Params}) {",
+      "    ${0:// code...}",
+      "  },",
+      "};"
+    ],
+    "description": "Discord Bot Event",
+    "isFileTemplate": true
+  }
+}

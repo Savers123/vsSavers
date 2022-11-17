@@ -1,8 +1,14 @@
 {
   "name": "vsce-savers",
-  "displayName": "VSsaverscode",
-  "description": "a custom vs code pack designed by Savers123",
-  "version": "0.0.1",
+  "displayName": "VS SaversCode",
+  "description": "a custom vs code pack designed by Savers123 to assist with Discord.js Formatting",
+  "version": "0.0.3",
+  "license": "GNU Lesser GPL V2.1",
+  "publisher": "SaversCode",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Savers123/vsSavers.git"
+  },
   "engines": {
     "vscode": "^1.73.0"
   },
